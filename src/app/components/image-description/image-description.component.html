@@ -1,0 +1,6 @@
+<div class="img-description">
+    <img [src]="imgPath" [alt]="alt" class="img-responsive" [ngStyle]="{'order': imageThenText == 'true'?'1':'2'}">
+    <p [ngStyle]="{'order': imageThenText == 'true'?'2':'1'}">
+        {{description}}
+    </p>
+</div>

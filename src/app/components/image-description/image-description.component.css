@@ -1,0 +1,37 @@
+.img-description{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.img-description img{
+    flex: 1;
+    flex-shrink: 1;
+    max-height:50vw;
+    max-width: 50vw;
+    height: auto;
+    width: 50vw;
+}
+
+.img-description p{
+    flex: 1;
+    padding: 0 35px 0 35px;
+}
+
+.img-description p::first-letter{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #29D9C2
+}
+
+@media screen and (max-width: 992px) {
+    .img-description{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .img-description img{
+        margin-top: 20px;
+    }
+  }
