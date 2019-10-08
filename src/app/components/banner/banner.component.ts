@@ -24,6 +24,8 @@ export class BannerComponent implements OnInit {
   ngOnInit() {
     this.title = this.inputTitle;
     this.description = this.inputDescription;
+    this.backgroundColor = this.inputBackgroundColor;
+    console.log(this.backgroundColor);
   }
 
 }

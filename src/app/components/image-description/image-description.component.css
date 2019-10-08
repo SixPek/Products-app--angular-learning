@@ -8,10 +8,8 @@
 .img-description img{
     flex: 1;
     flex-shrink: 1;
-    max-height:50vw;
-    max-width: 50vw;
-    height: auto;
-    width: 50vw;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 .img-description p{
@@ -29,6 +27,7 @@
     .img-description{
         margin-top: 20px;
         flex-direction: column;
+       align-items: center;
     }
 
     .img-description img{

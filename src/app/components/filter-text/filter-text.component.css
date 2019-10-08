@@ -1,0 +1,22 @@
+.filter-text{
+    display: flex;
+    justify-content: center;
+}
+
+.filter-text input[type='text']{
+    padding: 7px 12px 7px 30px;
+    width: 50ch;
+    outline: none;
+    border: 1px solid #01A2A6;
+    transition: box-shadow .3s;
+    color: darkslategrey;
+}
+
+.filter-text input[type='text']::placeholder, 
+.filter-text input[type='text']::-webkit-input-placeholder{
+    color: rgb(0, 127, 129);
+}
+
+.filter-text input[type='text']:focus{
+    box-shadow: 0 1px 5px rgba(1, 163, 166, 0.377);
+}
