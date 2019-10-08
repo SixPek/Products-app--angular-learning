@@ -1,3 +1,20 @@
 <app-filter-text>
 
 </app-filter-text>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="products">
+                <div class="product-item"  *ngFor="let product of products" >
+                    <app-product
+                    [inputId]="product.id"
+                    [inputTitle] = "product.title"
+                    [inputDescription]="product.description"
+                    [inputPrice]="product.price">
+                    </app-product>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

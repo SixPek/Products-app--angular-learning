@@ -35,3 +35,10 @@
     color: white;
 }
 
+.btn.btn-filled-primary:hover{
+    border-color:#01a2a6;
+    color: #01a2a6;
+    background: white;
+}
+
+
