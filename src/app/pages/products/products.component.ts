@@ -18,7 +18,7 @@ export class ProductsComponent implements OnInit {
 
   ngOnInit() {
     this.productService.getProducts().subscribe({
-      next: products => this.products = products
+      next: products => this.products = products.filter(product => product.id === 1)
     });
   }
 

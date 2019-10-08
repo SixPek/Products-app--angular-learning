@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Product } from 'src/app/shared/models/product';
 
 @Component({
   selector: 'app-filter-text',

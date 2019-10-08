@@ -18,7 +18,7 @@ export class ProductComponent implements OnInit {
    }
 
   ngOnInit() {
-    this.product = new Product(this.inputTitle, this.inputDescription, this.inputPrice);
+    this.product = new Product(this.inputId, this.inputTitle, this.inputDescription, this.inputPrice);
     console.log(this.product);
   }
 
