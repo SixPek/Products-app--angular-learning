@@ -1,8 +1,8 @@
 
-<div class="container" *ngIf = "product != null">
+<div class="container">
     <div class="row">
         <div class="col-12">
-                <div class="product-container">
+                <div class="product-container"  *ngIf = "product != null">
                     <div class="product-title">
                             <h2>
                                     {{product.title}}
@@ -20,7 +20,7 @@
                 <div class="btn-container">
                         <button (click)="BackToProducts()" class="btn btn-outlined-primary">Back to products</button>
                 </div>
-  
+
         </div>
     </div>
 </div>
