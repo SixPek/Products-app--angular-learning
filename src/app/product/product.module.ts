@@ -3,11 +3,7 @@ import {SharedModule} from 'src/app/shared/shared.module';
 import { ProductComponent } from './components/product/product.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { RouterModule, Routes } from '@angular/router';
-
-
-const routes : Routes = [
-  {path: 'products', component: ProductsComponent}
-];
+import { ProductRoutesModule } from './product-routes.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +11,7 @@ const routes : Routes = [
   ],
   imports: [
     SharedModule,
-    RouterModule.forChild(routes)
+    ProductRoutesModule
   ],
   exports: [
     ProductComponent,
