@@ -1,7 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 @import "./fontawesome-free-5.11.2-web/css/all.min.css";
-@import "./Hover-master/css/hover-min.css";  
 
 .btn.btn-filled-primary{
     background: #01a2a6;
