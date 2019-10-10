@@ -1,0 +1,21 @@
+.product-price{
+    color: #01a2a6;
+}
+
+.product-price span{
+    font-size: 20px;
+    color: gray;
+}
+
+.product-price h5{
+    display: inline-block;
+}
+
+.btn-container{
+    margin-top: 20px;
+}
+
+.product-container{
+    box-shadow: 0 1px 1px gainsboro;
+    padding: 40px;
+}

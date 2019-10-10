@@ -4,10 +4,12 @@ import { ProductComponent } from './components/product/product.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { RouterModule, Routes } from '@angular/router';
 import { ProductRoutesModule } from './product-routes.module';
+import { ProductDetailsComponent } from './pages/product-details/product-details.component';
 
 @NgModule({
   declarations: [
-    ProductComponent
+    ProductComponent,
+    ProductDetailsComponent
   ],
   imports: [
     SharedModule,
@@ -15,6 +17,7 @@ import { ProductRoutesModule } from './product-routes.module';
   ],
   exports: [
     ProductComponent,
+    ProductDetailsComponent,
     RouterModule
   ]
 })

@@ -1,0 +1,26 @@
+
+<div class="container" *ngIf = "product != null">
+    <div class="row">
+        <div class="col-12">
+                <div class="product-container">
+                    <div class="product-title">
+                            <h2>
+                                    {{product.title}}
+                            </h2>
+                    </div>
+                    <div class="product-description">
+                            <p>{{product.description}}</p>
+                    </div>
+                    <div class="product-price"> 
+                        <span>Price: </span>
+                        <h5>$ {{product.price}}</h5>
+                    </div>
+                </div>
+                
+                <div class="btn-container">
+                        <button (click)="BackToProducts()" class="btn btn-outlined-primary">Back to products</button>
+                </div>
+  
+        </div>
+    </div>
+</div>

@@ -3,6 +3,7 @@ import {Product} from "../../shared/models/product";
 import {HttpClient} from "@angular/common/http";
 import {HttpClientModule} from "@angular/common/http";
 import { Observable } from 'rxjs';
+import { ProductDetailsComponent } from 'src/app/product/pages/product-details/product-details.component';
 
 
 @Injectable({
@@ -10,7 +11,7 @@ import { Observable } from 'rxjs';
 })
 
 export class ProductService{
-    products: Product [];
+    products: Product [] = [];
     dataUrl = ""
 
     private readonly _http : HttpClient;
@@ -22,5 +23,14 @@ export class ProductService{
 
     getProducts() : Observable<Product[]>{
         return this._http.get<Product[]>('../../../assets/productList.json');
+    }
+
+       getProductById(id:number){
+        product:Product;
+        this._http.get<Product[]>('../../../assets/productList.json').subscribe({
+            next: p => {this.products = p}
+        });
+        
+         return this.products.find(x=>x.id == id);
     }
 }
