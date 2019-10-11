@@ -3,6 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { ProductService } from 'src/app/core/services/productService';
 import { Product } from 'src/app/shared/models/product';
 import { ProductsComponent } from '../products/products.component';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-product-details',
@@ -24,7 +25,6 @@ export class ProductDetailsComponent implements OnInit {
   }
 
   BackToProducts(){
-    console.log("AAA");
     this.router.navigate(['/products']);
   }
 

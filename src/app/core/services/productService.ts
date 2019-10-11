@@ -25,12 +25,10 @@ export class ProductService{
         return this._http.get<Product[]>('../../../assets/productList.json');
     }
 
-       getProductById(id:number){
-        product:Product;
-        this._http.get<Product[]>('../../../assets/productList.json').subscribe({
-            next: p => {this.products = p}
+        getProductById(id:number){
+       this._http.get<Product[]>('../../../assets/productList.json').subscribe({
+            next: p=>this.products = p
         });
-        
-         return this.products.find(x=>x.id == id);
+        return this.products.find(x=>x.id == id);
     }
 }
