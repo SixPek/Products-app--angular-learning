@@ -1,12 +1,19 @@
-<app-filter-text>
-
-</app-filter-text>
+<div class="filter-text">
+  <div>
+          <label for="filter-text">
+              <h5>Filter by name</h5>
+          </label>
+          <div>
+                  <input name="filter-text" type="text" placeholder="Filter products by name" [value]="searchKey" (input)="filterProducts($event)">
+          </div>
+  </div>
+</div>
 
 <div class="container">
     <div class="row">
         <div class="col-12">
             <div class="products">
-                <div class="product-item"  *ngFor="let product of products" >
+                <div class="product-item"  *ngFor="let product of filteredProducts" >
                     <app-product
                     [inputId]="product.id"
                     [inputTitle] = "product.title"
