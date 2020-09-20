@@ -1,0 +1,69 @@
+[
+    {
+        "id" : 1,
+        "title": "Coca Cola",
+        "description" : "Coca-Cola, or Coke, is a carbonated soft drink manufactured by The Coca-Cola Company. ... The drink's name refers to two of its original ingredients: coca leaves, and kola nuts (a source of caffeine).",
+        "price" : 2.23
+    },
+    {
+        "id" : 2,
+        "title": "Pepsi",
+        "description" : "Pepsi is a carbonated soft drink manufactured by PepsiCo. Originally created and developed in 1893 by Caleb Bradham and introduced as Brad's Drink, it was renamed as Pepsi-Cola on August 28, 1898, and then as Pepsi in 1961.",
+        "price" : 2.10
+    },
+    {
+        "id" : 3,
+        "title": "Schweppes",
+        "description" : "Schweppes Russchian is part of the Schweppes Mixers range. It can be enjoyed on its own or combined with alcohol or fruit juice. ",
+        "price" : 2.23
+    },
+    {
+        "id" : 4,
+        "title": "Random product",
+        "description" : "This is a random product",
+        "price" : 1.55
+    },
+    {
+        "id" : 5,
+        "title": "Test product",
+        "description" : "This is a Test product",
+        "price" : 1.11
+    },
+    {
+        "id" : 6,
+        "title": "Test product",
+        "description" : "This is a Test product",
+        "price" : 1.11
+    },
+    {
+        "id" : 7,
+        "title": "Test product",
+        "description" : "This is a Test product",
+        "price" : 1.11
+    },
+    {
+        "id" : 8,
+        "title": "Test product",
+        "description" : "This is a Test product",
+        "price" : 1.11
+    },
+    {
+        "id" : 9,
+        "title": "Test product",
+        "description" : "This is a Test product",
+        "price" : 1.11
+    },
+    {
+        "id" : 10,
+        "title": "Test product",
+        "description" : "This is a Test product",
+        "price" : 1.11
+    },
+    {
+        "id" : 11,
+        "title": "Test product",
+        "description" : "This is a Test product",
+        "price" : 1.11
+    }
+]
+
